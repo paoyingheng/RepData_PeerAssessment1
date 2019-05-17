@@ -139,7 +139,7 @@ act$day <- sapply(act$date, FUN = weekday.or.weekend)
 
 ```{r}
 # Create a plot to demonstrate the average number of steps taken on weekdays and weekends
-
+library(lattice)
 panel_days <- aggregate(steps ~ interval + day, data=act, mean)
 with(panel_days,
      xyplot(steps ~ interval | day, type="l", xlab = "Interval", ylab = "Number of steps", layout = c(1, 2)))
