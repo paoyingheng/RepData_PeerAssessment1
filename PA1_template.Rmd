@@ -1,6 +1,6 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
-author: "Pao Ying Heng"
+author: "PY Heng"
 date: "May 17, 2019"
 output: 
   html_document: 
